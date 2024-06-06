@@ -1,0 +1,61 @@
+.core-values-container {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .core-values-container h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .core-values-container h2 span {
+    color: #007BFF; /* Adjust the color as needed */
+  }
+  .paragraph{
+    padding: 20px 200px ;
+  }
+  .core-values-container p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .values-grid {
+    
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    margin: 20px;
+    padding: 20px 150px;
+    place-items: center;
+    flex-flow:wrap; 
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .value-card {
+    background-color: #007BFF; /* Adjust the background color as needed */
+    color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .value-card img {
+    border-radius: 50%; 
+    width: 100%;
+    height: 100%; 
+  }
+  .value-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .value-card p {
+    font-size: 1em;
+    flex-grow: 1;
+  }
+  

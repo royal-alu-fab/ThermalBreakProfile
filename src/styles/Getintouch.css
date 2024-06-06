@@ -37,3 +37,23 @@
     cursor: pointer;
     transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+    .getintouch{
+        height: 250px;
+    }
+    .line1, .line2{
+        margin: 10px;
+        padding-bottom: 5px;
+    }
+    .line1{
+        font-size: 30px;
+    }
+    .line2{
+        font-size: 25px;
+    }
+    .btn1{
+     width: 150px;
+       font-size: 16px;
+    }
+}

@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import logo from '../assets/llogo.png';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
@@ -8,6 +8,9 @@ function Navbar() {
 
   const [showMenu, setShowMenu] = useState(false);
   const [dropdownVisible, setDropdownVisible] = useState(false);
+  const [scrollUp, setScrollUp] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
     const toggleMenu = () => {
         setShowMenu(!showMenu);
     };
@@ -22,8 +25,28 @@ function Navbar() {
     const hideDropdown = () => {
       setDropdownVisible(false);
     };
+
+    const handleScroll = () => {
+      if (window.scrollY > lastScrollY) {
+        // Scrolling down
+        setScrollUp(false);
+      } else {
+        // Scrolling up
+        setScrollUp(true);
+      }
+      setLastScrollY(window.scrollY);
+    };
+
+    useEffect(() => {
+      window.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, [lastScrollY]);
+
   return (
-    <div className='navbar'>    
+    <div className={`navbar ${scrollUp ? 'nav-down' : 'nav-up'}`}>
       <div className='leftside'>
         <img src= {logo} alt='Logo'></img>
       </div>
@@ -50,8 +73,8 @@ function Navbar() {
         
         {/* <Link to= '/products' onClick={closeMenu}>Products</Link> */}
         
-        <Link to= '/about' onClick={closeMenu}>About-us</Link>
-        <Link to= '/contact' className='contact' onClick={closeMenu}>Contact-us</Link>
+        <Link to= '/about' onClick={closeMenu}>About us</Link>
+        <Link to= '/contact' className='contact' onClick={closeMenu}>Contact us</Link>
       </div>
     </div>
   )

@@ -8,7 +8,8 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    width: 100%;  
+    width: 100%; 
+    height: 100%; 
 }
 .text1, .photo1{
     flex: 1;
@@ -17,7 +18,6 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;  
-    max-height: 500px;
 }
 .text1{
     font-size: 25px ;
@@ -28,9 +28,12 @@
 .text1 h1{
     padding-left: 8px;
 }
+.photo1{
+    height: 100%;
+}
 .photo1 img{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 .text2{
     margin: 20px;
@@ -60,11 +63,11 @@
     padding-left: 80px;
 }
 .text-heading{
-    font-size: 30px;
+    font-size: 35px;
     text-align: left;
 }
 .text-paragraph{
-    font-size: 16px;
+    font-size: 20px;
     width: 90%;
 
 }
@@ -89,50 +92,74 @@
     border-radius: 100px;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .products{
-        margin: 10px;
-        max-height: 200px;
+        margin: 20px; 
     }
     .part1{
-        gap: 10px;
-        flex:1;
-        height: 150px;
+        display: grid;
+        width: 100%;
     }
-    .photo1{
-        height: 100%;
+    .text1, .photo1{
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;  
+        max-height: 400px;
     }
-    .photo1 img{
-        height: 100%;
-    }
-    .text1 {
-      flex: 2;
-      padding: 10px;
+    .text1{
+        font-size: 16px ;
+        padding: 5px;
     }
     .text1 h1{
-        font-size: small;
-        letter-spacing: 2px;
-        word-spacing: 2px;
+        padding-left: 0px;
     }
     .text2{
-        justify-content: center;
-        margin: 10px;
-        padding-bottom: 10px;
-        font-size: small;
-    }
-    .text1, .text2 {
-        font-size: 20px;
-    }
-
-    .text-heading {
-        font-size: 24px;
-    }
-
-    .text-paragraph {
-        font-size: 14px;
-    }
-
-    .btn {
         font-size: 16px;
     }
-  } */
+    .product-container{
+        display: grid;
+        max-height: 600px;
+        margin: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .product-container-text, .product-container-image{
+        width: 100%;
+    }
+    .product-container-text{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding-left: 0px;
+    }
+    .text-heading{
+        font-size: 25px;
+        text-align: center;
+    }
+    .text-paragraph{
+        font-size: 16px;
+        padding: 10px;
+        margin-left: 5px;
+        text-align: justify;
+    }
+    .btn-link{
+        text-align: center;
+    }
+    .product-container-image img{
+        width: 90%;
+        border-radius: 50px;
+    }
+    .product-container-image {
+        order: 1; /* Image first */
+    }
+    .product-container-text {
+        order: 2; /* Text second */
+    }
+    /* .photo1{
+        order: 1;
+    }
+    .text1{
+        order:2
+    } */
+}

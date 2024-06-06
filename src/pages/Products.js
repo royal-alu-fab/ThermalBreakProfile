@@ -6,6 +6,7 @@ import productlist from '../helpers/Productlist';
 import Getintouch from '../helpers/Getintouch';
 function Products({items}) {
   return (
+    <div className='content'>
     <div className='products'>
       <div className='part1'>
         <div className='text1'>
@@ -27,7 +28,7 @@ function Products({items}) {
             <div className='para'>
               <p className='text-heading'> {item.head} </p>
               <p className='text-paragraph'> {item.para} </p> 
-              <Link to = {item.url}><button className='btn'>Read More</button></Link>
+              <div className='btn-link'><Link to = {item.url} ><button className='btn'>Read More</button></Link></div>
             </div>
           </div>
           <div className='product-container-image'>
@@ -43,7 +44,7 @@ function Products({items}) {
             <div className='para'>
               <p className='text-heading'> {item.head} </p>
               <p className='text-paragraph'> {item.para} </p> 
-              <Link to = {item.url}><button className='btn'>Read More</button></Link>
+              <div className='btn-link'><Link to = {item.url}><button className='btn'>Read More</button></Link></div>
             </div>
           </div>
         </>
@@ -53,6 +54,7 @@ function Products({items}) {
 
     <div >
       <Getintouch />
+    </div>
     </div>
     </div>
   )

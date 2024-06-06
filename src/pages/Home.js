@@ -8,7 +8,7 @@ import home2 from '../assets/home-3.jpg';
 import home1 from '../assets/home-2.jpg';
 import Slider from 'react-slick';
 import ProductRange from '../helpers/ProductRange';
-
+import CoreValues from '../helpers/Corevalues';
 function Home() {
   const settings = {
     dots: true,
@@ -22,6 +22,7 @@ function Home() {
   };
  
   return (
+    <div className='content'>
     <div className='home'>
       <div className='slide'>
         <Slider {...settings}>
@@ -55,6 +56,10 @@ function Home() {
       <ProductRange />
     </div>
 
+    <div className='productrange'>
+      <CoreValues />
+    </div>
+    </div>
     </div>
   )
 }

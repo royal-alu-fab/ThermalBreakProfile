@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
-import product4 from '../assets/logo.png';
-import product2 from '../assets/product-2.png';
-import product3 from '../assets/product3.png';
-import product1 from '../assets/products1.png';
+import tbp from '../assets/thermal break profile/tbp.jpg';
+import tbap from '../assets/thermal break aluminium profile/tbap1.jpg';
+import ae from '../assets/aluminium extrusion/AE.jpg';
+import hvac from '../assets/hvac solutions/hvac.jpg';
+import woodcoat from '../assets/wooden coating/wooden.jpg';
+import powdercoat from '../assets/powder coating/powdercoating.jpg';
 import recent1 from '../assets/home-2.jpg';
 import recent2 from '../assets/home-3.jpg';
 import recent3 from '../assets/home-5.jpg';
@@ -57,36 +59,86 @@ function ProductRange() {
 
   return (
     <div>
-      <div className="product-range-container">
+      {/* <div className="product-range-container">
         <h1>Experience Our Range Of Surfaces</h1>
         <div className="product-images">
 
           <Slider {...settings}>
               <div className='productdiv'>
-                  <img src={product1} alt="Product 1" />
+                  <img src={tbp} alt="Product 1" />
+                  <h3> Thermal Break Profile</h3>
+              </div>
+              <div className='productdiv'>
+                  <img src={tbp} alt="Product 2" />
+                  <h3>Thermal Break Aluminium Profile</h3>
+              </div>
+              <div className='productdiv'>
+                  <img src={tbp} alt="Product 3" />
+                  <h3> Aluminium Extrusion</h3>
+              </div>
+              <div className='productdiv'>
+                  <img src={tbp} alt="Product 4" />
+                  <h3> HVAC Solution</h3>
+              </div>
+              <div className='productdiv'>
+                  <img src={tbp} alt="Product 1" />
                   <h3> Powder Coating</h3>
               </div>
               <div className='productdiv'>
-                  <img src={product2} alt="Product 2" />
+                  <img src={tbp} alt="Product 1" />
                   <h3> Wooden Coating</h3>
               </div>
-              <div className='productdiv'>
-                  <img src={product3} alt="Product 3" />
-                  <h3> Thermal profile</h3>
-              </div>
-              <div className='productdiv'>
-                  <img src={product4} alt="Product 4" />
-                  <h3> Logo Coating</h3>
-              </div>
-              <div className='productdiv'>
-                  <img src={product1} alt="Product 1" />
-                  <h3> Powder Coating</h3>
-              </div>
           </Slider>
+        </div>
+      </div> */}
 
+
+
+    <div className="product-range">
+      <h1>Experience Our Range Of Surfaces</h1>
+      <div className="products">
+        {/* <div className="product">
+          <h2>Our Product Range</h2>
+          <ul>
+            <li>Aluminium Profile</li>
+            <li>Aluminium Bronze Ingots</li>
+            <li>Silicon Bronze Ingots</li>
+            <li>Phosphorous Bronze Ingots</li>
+            <li>Tin Bronze Ingots</li>
+            <li>Leaded Bronze Ingots</li>
+            <li>Manganese Bronze Ingots</li>
+            <li>Bismuth Bronze Ingots</li>
+            <li>Brass Ingots</li>
+          </ul>
+        </div> */}
+        <div className="product">
+          <h2>Thermal Break Profile</h2>
+          <img src={tbp} alt="Product 1" />
+        </div>
+        <div className="product">
+          <h2>Thermal Break Aluminium Profile</h2>
+          <img src={tbap} alt="Product 1" /> 
+        </div>
+        <div className="product">
+          <h2>Aluminium Extrusion</h2>
+          <img src={ae} alt="Product 1" />  
+        </div>
+        <div className="product">
+          <h2>HVAC Solutions</h2>
+          <img src={hvac} alt="Product 1" /> 
+        </div>
+        <div className="product">
+          <h2>Powder Coating</h2>
+          <img src={powdercoat} alt="Product 1" /> 
+        </div>
+        <div className="product">
+          <h2>Wooden Coating</h2>
+          <img src={woodcoat} alt="Extrusion Brass RodsProduct 1" /> 
         </div>
       </div>
-      <div className='recent-work'>
+    </div>
+
+      {/* <div className='recent-work'>
         <h1>OUR RECENT WORKS</h1>
         <div className='recent-work-images'>
           <Slider {...settings2}>
@@ -98,7 +150,7 @@ function ProductRange() {
           </Slider>
 
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

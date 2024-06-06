@@ -5,6 +5,7 @@ import Getintouch from '../helpers/Getintouch';
 
 function ProductPage({ mainImage, mainAltText, title, description, productList }) {
   return (
+    <div className='content'>
     <div className='thermalprofile'>
       <div className='tbppart1'>
         <div className='tbpimage1'>
@@ -29,6 +30,7 @@ function ProductPage({ mainImage, mainAltText, title, description, productList }
       <div>
         <Getintouch />
       </div>
+    </div>
     </div>
   );
 }

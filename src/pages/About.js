@@ -4,9 +4,11 @@ import '../styles/About.css';
 import Aboutlogo from '../assets/mlogob.png';
 import VisionIcon from '../assets/customersatisfaction.png';
 import Getintouch from '../helpers/Getintouch';
+import Corevalues from '../helpers/Corevalues';
 
 function About() {
   return (
+    <div className='content'>
     <div className='about-us'>
      <div className='image-container'>
         <img src= {AboutImage} alt='aboutimg' className='bgimage'/>
@@ -24,13 +26,7 @@ function About() {
               <img src={Aboutlogo} alt='aboutlogo'/>
             </div>
             <div className='abt-text'>
-              
-              {/* <p> Real Group made its debut in the surface coating industry in 2000. </p>
-              <p>We lead as the premier surface finish application company, offering comprehensive in-house finishing capabilities like anodizing, powder coating, PVDF coating, industrial & automotive liquid painting, and innovative natural coating finishes such as RealWood, RealMarble & RealGranite, all housed under one roof. Our unique solutions and capabilities make us the sole provider in the industry, with a state-of-the-art 50,000 sq ft application center established nationwide since 2014.</p>
-              <p>Our dedication to preserving personal relationships with our valued customers and suppliers is unwavering.</p> */}
-
-              
-              <p> Royal Alu Fab made its debut in the surface coating industry in 2000. <br /><br />We lead as the premier surface finish application company, offering comprehensive in-house finishing capabilities like anodizing, powder coating, PVDF coating, industrial & automotive liquid painting, and innovative natural coating finishes such as RealWood, RealMarble & RealGranite, all housed under one roof. Our unique solutions and capabilities make us the sole provider in the industry, with a state-of-the-art 25,000 sq ft application center established nationwide since 2014. <br /><br /> Our dedication to preserving personal relationships with our valued customers and suppliers is unwavering.</p>
+             <p> Royal Alu Fab made its debut in the surface coating industry in 2000. <br /><br />We lead as the premier surface finish application company, offering comprehensive in-house finishing capabilities like anodizing, powder coating, PVDF coating, industrial & automotive liquid painting, and innovative natural coating finishes such as RealWood, RealMarble & RealGranite, all housed under one roof. Our unique solutions and capabilities make us the sole provider in the industry, with a state-of-the-art 25,000 sq ft application center established nationwide since 2014. <br /><br /> Our dedication to preserving personal relationships with our valued customers and suppliers is unwavering.</p>
 
             </div>
           </div>
@@ -99,8 +95,10 @@ function About() {
         <div class="choose-text">Transparency</div>
       </div>
     </div>
+    <Corevalues />
     <Getintouch />
     
+    </div>
     </div>
   )
 }
