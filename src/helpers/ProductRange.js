@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
+import { Link } from 'react-router-dom';
 import tbp from '../assets/thermal break profile/tbp.jpg';
 import tbap from '../assets/thermal break aluminium profile/tbap1.jpg';
 import ae from '../assets/aluminium extrusion/AE.jpg';
@@ -112,27 +113,27 @@ function ProductRange() {
           </ul>
         </div> */}
         <div className="product">
-          <h2>Thermal Break Profile</h2>
+          <Link to='/thermalbreakprofile'><h2>Thermal Break Profile</h2></Link>
           <img src={tbp} alt="Product 1" />
         </div>
         <div className="product">
-          <h2>Thermal Break Aluminium Profile</h2>
+          <Link to='/thermalbreakaluminiumprofile'><h2>Thermal Break Aluminium Profile</h2></Link>
           <img src={tbap} alt="Product 1" /> 
         </div>
         <div className="product">
-          <h2>Aluminium Extrusion</h2>
+          <Link to='/aluminiumextrusion'><h2>Aluminium Extrusion</h2></Link>
           <img src={ae} alt="Product 1" />  
         </div>
         <div className="product">
-          <h2>HVAC Solutions</h2>
+          <Link to='/hvacsolution'><h2>HVAC Solutions</h2></Link>
           <img src={hvac} alt="Product 1" /> 
         </div>
         <div className="product">
-          <h2>Powder Coating</h2>
+          <Link to='/powdercoating'><h2>Powder Coating</h2></Link>
           <img src={powdercoat} alt="Product 1" /> 
         </div>
         <div className="product">
-          <h2>Wooden Coating</h2>
+          <Link to='/woodencoating'><h2>Wooden Coating</h2></Link>
           <img src={woodcoat} alt="Extrusion Brass RodsProduct 1" /> 
         </div>
       </div>
