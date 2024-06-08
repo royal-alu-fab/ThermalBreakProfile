@@ -62,7 +62,7 @@ function Navbar() {
           {dropdownVisible && (
           <div className='dropdown-menu'>
             <Link to='/thermalbreakprofile' onClick={closeMenu}>Thermal Break Profile</Link>
-            <Link to='/thermalbreakaluminiumprofile' onClick={closeMenu}>Thermal break Aluminium Profile </Link>
+            <Link to='/thermalbreakaluminiumprofile' onClick={closeMenu}>Thermal Break Aluminium Profile </Link>
             <Link to='/aluminiumextrusion' onClick={closeMenu}>Aluminium Extrusion</Link>
             <Link to='/hvacsolution' onClick={closeMenu}>HVAC Solution</Link>
             <Link to='/powdercoating' onClick={closeMenu}>Powder Coating</Link>
