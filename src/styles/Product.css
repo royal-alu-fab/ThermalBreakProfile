@@ -91,6 +91,9 @@
     object-fit: cover;
     border-radius: 100px;
 }
+.git{
+    width: 100%;
+}
 
 @media (max-width: 768px) {
     .products{

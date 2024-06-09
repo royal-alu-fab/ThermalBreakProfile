@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
+import { Link } from 'react-router-dom';
 import tbp from '../assets/thermal break profile/tbp.jpg';
 import tbap from '../assets/thermal break aluminium profile/tbap1.jpg';
 import ae from '../assets/aluminium extrusion/AE.jpg';
@@ -113,27 +114,39 @@ function ProductRange() {
         </div> */}
         <div className="product">
           <h2>Thermal Break Profile</h2>
-          <img src={tbp} alt="Product 1" />
+          <Link to ='/thermalbreakprofile'>
+            <img src={tbp} alt="Thermal Break Profile" />
+          </ Link>
         </div>
         <div className="product">
           <h2>Thermal Break Aluminium Profile</h2>
-          <img src={tbap} alt="Product 1" /> 
+          <Link to ='/thermalbreakaluminiumprofile'>
+            <img src={tbap} alt="Thermal Break Aluminium Profile" /> 
+          </ Link>
         </div>
         <div className="product">
           <h2>Aluminium Extrusion</h2>
-          <img src={ae} alt="Product 1" />  
+          <Link to ='/aluminiumextrusion'>
+            <img src={ae} alt="Aluminium Extrusion" /> 
+          </Link> 
         </div>
         <div className="product">
           <h2>HVAC Solutions</h2>
-          <img src={hvac} alt="Product 1" /> 
+          <Link to ='/thermalbreakprofile'>
+            <img src={hvac} alt="HVAC Solutions" /> 
+          </Link>
         </div>
         <div className="product">
           <h2>Powder Coating</h2>
-          <img src={powdercoat} alt="Product 1" /> 
+          <Link to ='/powdercoating'>
+            <img src={powdercoat} alt="Powder Coating" />
+          </Link> 
         </div>
         <div className="product">
           <h2>Wooden Coating</h2>
-          <img src={woodcoat} alt="Extrusion Brass RodsProduct 1" /> 
+          <Link to ='/woodencoating'>
+            <img src={woodcoat} alt="Wooden Coating" /> 
+          </Link>
         </div>
       </div>
     </div>

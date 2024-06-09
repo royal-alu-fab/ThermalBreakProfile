@@ -1,9 +1,8 @@
 import React from 'react';
 import '../styles/Corevalues.css';
-import customersatisfaction from '../assets/customersatisfaction.png';
 
 const coreValues = [
-  { image: customersatisfaction, title: 'Customer Satisfaction', description: 'We value our customers by providing services that consistently exceed their expectations.'},
+  { title: 'Customer Satisfaction', description: 'We value our customers by providing services that consistently exceed their expectations.'},
   { title: 'Commitment', description: 'We deliver what we promise and add value beyond what is expected.' },
   { title: 'Continuous Improvement', description: 'We are committed to improving our processes and services continuously.' },
   { title: 'Risk Taking', description: 'We encourage and support calculated risk-taking.' },
@@ -25,7 +24,7 @@ const CoreValues = () => {
       <div className="values-grid">
         {coreValues.map((value, index) => (
           <div key={index} className="value-card">
-            {/* <img src={value.image} alt={value.name} /> */}
+            <img src={value.image} alt={value.title} />
             <h3>{value.title}</h3>
             <p>{value.description}</p>
           </div>
@@ -36,4 +35,3 @@ const CoreValues = () => {
 };
 
 export default CoreValues;
-
