@@ -7,9 +7,9 @@ function Woodencoating() {
   return (
     <ProductPage 
       mainImage={mainImage}
-      mainAltText="Thermal Break Profile"
-      title="Thermal Break Profile"
-      description="A thermal break profile (also called thermal barrier strip, polyamide strip) is an insertion of an insulating material, such as polyamide, which interrupts the thermal transfer through an architectural aluminium profile. With rising energy prices in mind, everyone is striving for optimal insulation of their home."
+      mainAltText="Wooden Coating"
+      title="Wooden Coating"
+      description="Wood coating enhances durability, appearance, and resistance to moisture, UV radiation, and environmental factors. Types include stains, varnishes, lacquers, and paints, applied through various methods like brushing, spraying, or dipping."
       productList={Woodencoatinglist}
     />
   )

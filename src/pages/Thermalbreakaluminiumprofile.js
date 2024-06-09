@@ -7,9 +7,10 @@ function Thermalbreakaluminiumprofile() {
   return (
     <ProductPage 
       mainImage={mainImage}
-      mainAltText="Thermal Break Profile"
-      title="Thermal Break Profile"
-      description="A thermal break profile (also called thermal barrier strip, polyamide strip) is an insertion of an insulating material, such as polyamide, which interrupts the thermal transfer through an architectural aluminium profile. With rising energy prices in mind, everyone is striving for optimal insulation of their home."
+      mainAltText="Thermal Break Aluminium Profile"
+      title="Thermal Break Aluminium Profile"
+      description="
+A thermal break aluminum profile is a type of window or door frame that includes a non-conductive material between the inner and outer aluminum sections to reduce heat transfer, improving energy efficiency and reducing condensation."
       productList={Thermalaluminiumlist}
     />
   )

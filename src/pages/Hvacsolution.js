@@ -8,9 +8,9 @@ function Hvacsolution() {
     <div>
         <ProductPage
           mainImage={mainImage}
-          mainAltText="Thermal Break Profile"
-          title="Thermal Break Profile"
-          description="A thermal break profile (also called thermal barrier strip, polyamide strip) is an insertion of an insulating material, such as polyamide, which interrupts the thermal transfer through an architectural aluminium profile. With rising energy prices in mind, everyone is striving for optimal insulation of their home."
+          mainAltText="HVAC Solutions"
+          title="HVAC Solutions"
+          description="HVAC solutions refer to systems and services for heating, ventilation, and air conditioning in buildings. It includes equipment and technologies designed to regulate indoor climate, ensuring comfort, air quality, and energy efficiency in residential, commercial, and industrial settings."
           productList={Hvacsolutionlist}
         />
         <div style={{ marginTop: '20px' }}>
