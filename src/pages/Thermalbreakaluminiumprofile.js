@@ -1,12 +1,12 @@
 import React from 'react'
 import ProductPage from '../pages/Productpage';
-import mainImage from '../assets/thermalbreakprofile.jpg';
+import thermalBreakAluminiumProfileImage from '../assets/thermal break aluminium profile/thermal-break-aluminium-profile.jpg';
 import {Thermalaluminiumlist} from '../helpers/Thermalaluminiumlist';
 
 function Thermalbreakaluminiumprofile() {
   return (
     <ProductPage 
-      mainImage={mainImage}
+      mainImage={thermalBreakAluminiumProfileImage}
       mainAltText="Thermal Break Aluminium Profile"
       title="Thermal Break Aluminium Profile"
       description="
