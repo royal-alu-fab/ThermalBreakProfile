@@ -39,6 +39,7 @@
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
 }
+
 .about-us2{
   position: relative;
   height: 500px;
@@ -78,22 +79,27 @@
   text-align: left;
   padding: 0px 20px;
 }
+.divider{
+  width: 50px;
+  height: 2px;
+  background-color: #00c3ff;
+  margin: 10px auto 50px;
+}
 .vision {
   display: flex;
-  justify-content: space-around;    
-  margin: 30px 100px;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; 
 }
 .vision-box {
-  background-color: #d1d1d1;
+  background-color: #f3f7f9;
+  border-radius: 10px;
+  padding: 20px;
   width: 250px;
-  height: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   position: relative;
   margin: 20px;
-  padding: 10px 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  display: flex;
-  justify-content: center;
 }
 .vision-icon {
   width: 80px;
@@ -120,12 +126,17 @@
   padding: 15px 10px;
 }
 .heading1{
-  font-size: 20px;
+  font-size: 25px;
+  padding-top:20px ;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .para1{
-  padding-top: 10px;
+  /* padding-top: 10px; */
+  padding: 0px 15px;
+  letter-spacing: 1px;
   font-size: 17px;
+  /* text-align: justify; */
+  word-spacing: 2px;
 }
 
 .choose-me {
@@ -138,7 +149,7 @@
   width: 90%;
 }
 .choose-box {
-  width: 300px;
+  width: 350px;
   height: 60px;
   display: flex;
   align-items: center;
@@ -152,13 +163,13 @@
   margin-left: 20px;
 }
 .choose-icon img {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 50px;
 }
 .choose-text {
   font-size: 20px;
-  margin-left: 30px ;
+  margin-left: 10px ;
 }
 
 @media(max-width:768px){
@@ -238,13 +249,14 @@
   .choose-me {
     max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 10px;
     margin: 0px;
     width: 100%;
   }
   .choose-box {
     width: 100%;
+    height: 70px;
     overflow: hidden;
     /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); */
     padding: 0px;
@@ -256,7 +268,7 @@
     padding-bottom: 10px;
   }
   .choose-icon img {
-    width: 50px;
+    width: 80px;
     height: 100%;
     border-radius: 50px;
   }

@@ -113,28 +113,40 @@ function ProductRange() {
           </ul>
         </div> */}
         <div className="product">
-          <Link to='/thermalbreakprofile'><h2>Thermal Break Profile</h2></Link>
-          <img src={tbp} alt="Product 1" />
+          <h2>Thermal Break Profile</h2>
+          <Link to ='/thermalbreakprofile'>
+            <img src={tbp} alt="Thermal Break Profile" />
+          </ Link>
         </div>
         <div className="product">
-          <Link to='/thermalbreakaluminiumprofile'><h2>Thermal Break Aluminium Profile</h2></Link>
-          <img src={tbap} alt="Product 1" /> 
+          <h2>Thermal Break Aluminium Profile</h2>
+          <Link to ='/thermalbreakaluminiumprofile'>
+            <img src={tbap} alt="Thermal Break Aluminium Profile" /> 
+          </ Link>
         </div>
         <div className="product">
-          <Link to='/aluminiumextrusion'><h2>Aluminium Extrusion</h2></Link>
-          <img src={ae} alt="Product 1" />  
+          <h2>Aluminium Extrusion</h2>
+          <Link to ='/aluminiumextrusion'>
+            <img src={ae} alt="Aluminium Extrusion" /> 
+          </Link> 
         </div>
         <div className="product">
-          <Link to='/hvacsolution'><h2>HVAC Solutions</h2></Link>
-          <img src={hvac} alt="Product 1" /> 
+          <h2>HVAC Solutions</h2>
+          <Link to ='/thermalbreakprofile'>
+            <img src={hvac} alt="HVAC Solutions" /> 
+          </Link>
         </div>
         <div className="product">
-          <Link to='/powdercoating'><h2>Powder Coating</h2></Link>
-          <img src={powdercoat} alt="Product 1" /> 
+          <h2>Powder Coating</h2>
+          <Link to ='/powdercoating'>
+            <img src={powdercoat} alt="Powder Coating" />
+          </Link> 
         </div>
         <div className="product">
-          <Link to='/woodencoating'><h2>Wooden Coating</h2></Link>
-          <img src={woodcoat} alt="Extrusion Brass RodsProduct 1" /> 
+          <h2>Wooden Coating</h2>
+          <Link to ='/woodencoating'>
+            <img src={woodcoat} alt="Wooden Coating" /> 
+          </Link>
         </div>
       </div>
     </div>

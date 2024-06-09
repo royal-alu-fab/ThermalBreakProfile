@@ -52,7 +52,7 @@ function Products({items}) {
       </div>
     ))}
 
-    <div >
+    <div className='git'>
       <Getintouch />
     </div>
     </div>

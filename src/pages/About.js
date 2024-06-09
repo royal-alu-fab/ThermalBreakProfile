@@ -2,9 +2,18 @@ import React from 'react'
 import AboutImage from '../assets/aboutus.jpg';
 import '../styles/About.css';
 import Aboutlogo from '../assets/mlogob.png';
-import VisionIcon from '../assets/customersatisfaction.png';
+import Innovation from '../assets/ourvision/innovation.png';
+import Customerfocus from '../assets/ourvision/customerfocus.png';
+import Excellence from '../assets/ourvision/excellence.png';
+import Integrity from '../assets/ourvision/integrity.png';
 import Getintouch from '../helpers/Getintouch';
 import Corevalues from '../helpers/Corevalues';
+import Qualityassurance from '../assets/why choose us_/quality-assurance.png';
+import IndustryLeadership from '../assets/why choose us_/industry-leadership.png';
+import ExperiencedTeam from '../assets/why choose us_/experienced team.png';
+import CustomizedSolutions from '../assets/why choose us_/customized-solutions.png';
+import WideProductRange from '../assets/why choose us_/products-range.png';
+import ContinnuousImprovement from '../assets/why choose us_/continuous-improvement.png';
 
 function About() {
   return (
@@ -17,9 +26,8 @@ function About() {
         </div>
      </div>
      <p className='about-header'>About us</p>
-     
+     <hr className="divider" />
      <div className='about-us2'>
-        {/* <div className='logobg'>  */}
           <img src= {AboutImage} alt='aboutimg' className='bgimage2'/>
           <div className='text-overlay2'>
             <div className='abt-logo'>
@@ -30,69 +38,70 @@ function About() {
 
             </div>
           </div>
-        {/* </div> */}
      </div>
+
+
      <p className='about-header'>OUR VISION</p>
-     
+     <hr className="divider"/>
      <div className='vision'>
         <div className="vision-box">
-          <div className="vision-icon"><img src={VisionIcon} alt="icon" /></div>
+          <div className="vision-icon"><img src={Innovation} alt="icon" /></div>
           <div className='vision-text'>
-            <p className='heading1'>Transparency</p>
-            <p className='para1'>We believe in transparent communication and honesty with our customers, partners, and stakeholders.</p>
+            <p className='heading1'>Innovation</p>
+            <p className='para1'>We aim to create new and better products for the future. We are always looking for new ways to improve our thermal break profiles.</p>
           </div>
         </div>
 
         <div className="vision-box">
-          <div className="vision-icon"><img src={VisionIcon} alt="icon" /></div>
+          <div className="vision-icon"><img src={Customerfocus} alt="icon" /></div>
           <div className='vision-text'>
-            <p className='heading1'>Transparency</p>
-            <p className='para1'>We believe in transparent communication and honesty with our customers, partners, and stakeholders.</p>
+            <p className='heading1'>Customer Focus</p>
+            <p className='para1'>We listen to our customers and meet their needs. We provide solutions that fit what our customers want and need.</p>
           </div>
         </div>
 
         <div className="vision-box">
-          <div className="vision-icon"><img src={VisionIcon} alt="icon" /></div>
+          <div className="vision-icon"><img src={Excellence} alt="icon" /></div>
           <div className='vision-text'>
-            <p className='heading1'>Transparency</p>
-            <p className='para1'>We believe in transparent communication and honesty with our customers, partners, and stakeholders.</p>
+            <p className='heading1'>Excellence</p>
+            <p className='para1'>We strive to be the best in everything we do. We continually improve our processes and products to reach the highest standards.</p>
           </div>
         </div>
 
         <div className="vision-box">
-          <div className="vision-icon"><img src={VisionIcon} alt="icon" /></div>
+          <div className="vision-icon"><img src={Integrity} alt="icon" /></div>
           <div className='vision-text'>
-            <p className='heading1'>Transparency</p>
-            <p className='para1'>We believe in transparent communication and honesty with our customers, partners, and stakeholders.</p>
+            <p className='heading1'>Integrity</p>
+            <p className='para1'>We believe in doing the right thing always. We uphold honesty and strong moral principles in our work.</p>
           </div>
         </div>
      </div>
      <p className='about-header'>WHY CHOOSE US?</p>
-    
+     <hr className="divider"/>
     <div className='choose-me'>
       <div className='choose-box'>
-        <div class="choose-icon"><img src={VisionIcon} alt="icon1" /></div>
-        <div class="choose-text">Transparency</div>
+        <div class="choose-icon"><img src={Qualityassurance} alt="icon1" /></div>
+        <div class="choose-text">Quality Assurance</div>
       </div>
       <div className='choose-box'>
-        <div class="choose-icon"><img src={VisionIcon} alt="icon1" /></div>
-        <div class="choose-text">Transparency</div>
+        <div class="choose-icon"><img src={IndustryLeadership} alt="icon1" /></div>
+        <div class="choose-text">Industry Leadership</div>
       </div>
       <div className='choose-box'>
-        <div class="choose-icon"><img src={VisionIcon} alt="icon1" /></div>
-        <div class="choose-text">Transparency</div>
+        <div class="choose-icon"><img src={ExperiencedTeam} alt="icon1" /></div>
+        <div class="choose-text">Experienced Team</div>
       </div>
       <div className='choose-box'>
-        <div class="choose-icon"><img src={VisionIcon} alt="icon1" /></div>
-        <div class="choose-text">Transparency</div>
+        <div class="choose-icon"><img src={CustomizedSolutions} alt="icon1" /></div>
+        <div class="choose-text">Customized Solutions</div>
       </div>
       <div className='choose-box'>
-        <div class="choose-icon"><img src={VisionIcon} alt="icon1" /></div>
-        <div class="choose-text">Transparency</div>
+        <div class="choose-icon"><img src={WideProductRange} alt="icon1" /></div>
+        <div class="choose-text">Wide Product Range</div>
       </div>
       <div className='choose-box'>
-        <div class="choose-icon"><img src={VisionIcon} alt="icon1" /></div>
-        <div class="choose-text">Transparency</div>
+        <div class="choose-icon"><img src={ContinnuousImprovement} alt="icon1" /></div>
+        <div class="choose-text">Continuous Improvement</div>
       </div>
     </div>
     <Corevalues />

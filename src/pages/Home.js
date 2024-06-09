@@ -2,10 +2,8 @@ import React from 'react';
 import '../styles/Home.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import home5 from '../assets/home6.jpg';
-import home4 from '../assets/home-5.jpg';
-import home2 from '../assets/home-3.jpg';
-import home1 from '../assets/home-2.jpg';
+import main1 from '../assets/main page/main1.jpg';
+import main2 from '../assets/main page/main2.png';
 import Slider from 'react-slick';
 import ProductRange from '../helpers/ProductRange';
 import CoreValues from '../helpers/Corevalues';
@@ -27,20 +25,20 @@ function Home() {
       <div className='slide'>
         <Slider {...settings}>
           <div className='image'>
-            <img src={ home1 } alt='home1'/>
+            <img src={ main1 } alt='home1'/>
           </div>
           
           <div className='image'>
-            <img src={ home2 } alt='home2'/>
+            <img src={ main2 } alt='home2'/>
           </div>
 
-          <div className='image'>
+          {/* <div className='image'>
             <img src={ home4 } alt='home4'/>
           </div>
 
           <div className='image'>
             <img src={ home5 } alt='home5'/>
-          </div>
+          </div> */}
         </Slider>
       </div>
     
@@ -52,13 +50,10 @@ function Home() {
         <p>At Royal Alu Fab, we challenge boundaries and redefine norms. Through our diverse services and groundbreaking products, we continuously shatter limits, driving innovation in India's construction landscape.</p>
     </div>
 
-    <div className='productrange'>
-      <ProductRange />
-    </div>
+    <div> <ProductRange /></div>
 
-    <div className='productrange'>
-      <CoreValues />
-    </div>
+    <div> <CoreValues /></div>
+    
     </div>
     </div>
   )
