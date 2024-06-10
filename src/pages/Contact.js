@@ -5,6 +5,7 @@ import { IoIosMail } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
 import { FaHome } from "react-icons/fa";
 import Maps from '../assets/googlemaps.png';
+import ContactForm from '../helpers/ContactForm';
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -134,6 +135,10 @@ function Contact() {
             </div>
             </form>
         </div>
+      </div>
+
+      <div className="formspree-form">
+        <ContactForm />
       </div>
 
       <div className='location-heading'>

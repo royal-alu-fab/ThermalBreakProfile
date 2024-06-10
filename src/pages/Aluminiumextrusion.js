@@ -1,16 +1,16 @@
 import React from 'react'
 import ProductPage from '../pages/Productpage';
-import mainImage from '../assets/thermalbreakprofile.jpg';
+import aluminiumExtrusionImage from '../assets/aluminium extrusion/AE.jpg';
 import {Aluminiumextrusionlist} from '../helpers/Aluminiumextrusionlist';
 
 function Aluminiumextrusion() {
   return (
     
     <ProductPage 
-      mainImage={mainImage}
-      mainAltText="Thermal Break Profile"
-      title="Thermal Break Profile"
-      description="A thermal break profile (also called thermal barrier strip, polyamide strip) is an insertion of an insulating material, such as polyamide, which interrupts the thermal transfer through an architectural aluminium profile. With rising energy prices in mind, everyone is striving for optimal insulation of their home."
+      mainImage={aluminiumExtrusionImage}
+      mainAltText="Aluminum Extrusion"
+      title="Aluminum Extrusion"
+      description="Aluminum extrusion is a process where aluminum is forced through a die to create specific cross-sectional profiles. It produces lightweight, strong shapes used in construction, automotive, and aerospace industries, allowing for custom designs and efficient material use."
       productList={Aluminiumextrusionlist}
     />
     

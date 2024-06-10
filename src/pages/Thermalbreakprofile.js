@@ -9,7 +9,7 @@ function Thermalbreakprofile() {
       mainImage={mainImage}
       mainAltText="Thermal Break Profile"
       title="Thermal Break Profile"
-      description="A thermal break profile (also called thermal barrier strip, polyamide strip) is an insertion of an insulating material, such as polyamide, which interrupts the thermal transfer through an architectural aluminium profile. With rising energy prices in mind, everyone is striving for optimal insulation of their home."
+      description="A thermal break profile (also called thermal barrier strip, polyamide strip, PA66) is an insertion of an insulating material, such as polyamide, which interrupts the thermal transfer through an architectural aluminium profile. With rising energy prices in mind, everyone is striving for optimal insulation of their home."
       productList={Thermalprofilelist}
     />
   )

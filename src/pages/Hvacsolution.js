@@ -1,17 +1,24 @@
 import React from 'react'
 import ProductPage from '../pages/Productpage';
-import mainImage from '../assets/thermalbreakprofile.jpg';
+import hvacImage from '../assets/hvac solutions/hvac.jpg';
 import {Hvacsolutionlist} from '../helpers/Hvacsolutionlist';
 
 function Hvacsolution() {
   return (
-    <ProductPage 
-      mainImage={mainImage}
-      mainAltText="Thermal Break Profile"
-      title="Thermal Break Profile"
-      description="A thermal break profile (also called thermal barrier strip, polyamide strip) is an insertion of an insulating material, such as polyamide, which interrupts the thermal transfer through an architectural aluminium profile. With rising energy prices in mind, everyone is striving for optimal insulation of their home."
-      productList={Hvacsolutionlist}
-    />
+    <div>
+        <ProductPage
+          mainImage={hvacImage}
+          mainAltText="HVAC Solutions"
+          title="HVAC Solutions"
+          description="HVAC solutions refer to systems and services for heating, ventilation, and air conditioning in buildings. It includes equipment and technologies designed to regulate indoor climate, ensuring comfort, air quality, and energy efficiency in residential, commercial, and industrial settings."
+          productList={Hvacsolutionlist}
+        />
+        <div style={{ marginTop: '20px' }}>
+          <a href="/hvac-solutions-catalogue.pdf" download="hvac-solutions-catalogue.pdf">
+            Download our Product Catalog
+          </a>
+        </div>
+    </div>
   )
 }
 
