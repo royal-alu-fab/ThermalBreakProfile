@@ -142,7 +142,7 @@ function Contact() {
       </div>
 
       <div className='location-heading'>
-        <h1> LOCATIONS</h1>
+        <h1> LOCATIONS...</h1>
       </div>
       
       <div className='locations-container'>
