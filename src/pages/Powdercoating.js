@@ -1,15 +1,15 @@
 import React from 'react'
 import ProductPage from '../pages/Productpage';
-import mainImage from '../assets/thermalbreakprofile.jpg';
+import powderCoatingImage from '../assets/powder coating/powdercoating.jpg';
 import {Powdercoatinglist} from '../helpers/Powdercoatinglist';
 
 function Powdercoating() {
   return (
     <ProductPage 
-      mainImage={mainImage}
-      mainAltText="Thermal Break Profile"
-      title="Thermal Break Profile"
-      description="A thermal break profile (also called thermal barrier strip, polyamide strip) is an insertion of an insulating material, such as polyamide, which interrupts the thermal transfer through an architectural aluminium profile. With rising energy prices in mind, everyone is striving for optimal insulation of their home."
+      mainImage={powderCoatingImage}
+      mainAltText="Powder Coating"
+      title="Powder Coating"
+      description="Powder coating is a process where dry powder is applied electrostatically to a surface, then cured under heat, creating a durable, protective layer. It's commonly used on metals for enhanced resistance to corrosion, wear, and weathering."
       productList={Powdercoatinglist}
     /> 
   )
