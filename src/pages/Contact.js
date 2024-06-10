@@ -5,23 +5,26 @@ import { IoIosMail } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
 import { FaHome } from "react-icons/fa";
 import Maps from '../assets/googlemaps.png';
-import ContactForm from '../helpers/ContactForm';
+import { useForm, ValidationError } from '@formspree/react';
 
 function Contact() {
-  const [formData, setFormData] = useState({
+
+  const initialFormData = {
     name: '',
     email: '',
     contactNumber: '',
     product: '',
     message: ''
-  });
+  };
+
+  const [formData, setFormData] = useState(initialFormData);
 
   const [errors, setErrors] = useState({});
+  const [state, handleSubmit] = useForm("xkndlddw");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
 
-    // Allow only numbers for contactNumber and ensure it is up to 10 digits
     if (name === 'contactNumber') {
       if (value === '' || /^\d{1,10}$/.test(value)) {
         setFormData({
@@ -43,32 +46,25 @@ function Contact() {
     if (!formData.email) newErrors.email = 'Email is required';
     if (formData.email && !/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = 'Email is invalid';
     if (!formData.contactNumber) newErrors.contactNumber = 'Contact number is required';
+    if (formData.contactNumber.length !== 10) newErrors.contactNumber = 'Contact number must be exactly 10 digits';
     if (!formData.product) newErrors.product = 'Please select a product';
     if (!formData.message) newErrors.message = 'Message is required';
     return newErrors;
   };
 
-  
-  const handleSubmit = (e) => {
+  const handleFormSubmit = async(e) => {
     e.preventDefault();
-    const newErrors = {};
-    if (formData.contactNumber.length !== 10) {
-      newErrors.contactNumber = 'Contact number must be exactly 10 digits';
-    }
-    setErrors(newErrors);
-    if (Object.keys(newErrors).length === 0) {
-      console.log('Form submitted:', formData);
-      // Add your form submission logic here
-    }
     const validationErrors = validate();
+    setErrors(validationErrors);
     if (Object.keys(validationErrors).length === 0) {
-      // Submit form data
-      console.log('Form submitted:', formData);
-    } else {
-      setErrors(validationErrors);
+      handleSubmit(e);
+
+      if (state.succeeded) {
+        window.alert('Thanks for reaching out to us!! Will contact you soon!')
+        setFormData(initialFormData);
+      }
     }
   };
-
 
   return (
     <div className='content'>
@@ -99,50 +95,53 @@ function Contact() {
         </div>
 
         <div className='contact-form'>
-            <form className='forms' onSubmit={handleSubmit}>
-              <div className='form-group'>
-                <input type='text' name='name' placeholder='Name' className='form-control' value={formData.name} onChange={handleChange} />
-                {errors.name && <span className='error'> {errors.name} </span> }
-                <input type='email' name='email' placeholder='Email' className='form-control' value={formData.email} onChange={handleChange}/> 
-                {errors.email && <span className='error'>{errors.email}</span>}
-              </div>
+          <form className='forms' onSubmit={handleFormSubmit}>
+            <div className='form-group'>
+              <input type='text' name='name' placeholder='Name' className='form-control' value={formData.name} onChange={handleChange} />
+              {errors.name && <span className='error'> {errors.name} </span> }
+              <ValidationError field="name" prefix="Name" errors={state.errors} />
 
-              <div className='form-group'>
-                <input type='text' name= 'contactNumber' placeholder="Contact Number" className='form-control' value={formData.contactNumber} onChange={handleChange}></input>
-                {errors.contactNumber && <span className='error'>{errors.contactNumber}</span>}
+              <input type='email' name='email' placeholder='Email' className='form-control' value={formData.email} onChange={handleChange}/> 
+              {errors.email && <span className='error'>{errors.email}</span>}
+              <ValidationError field="email" prefix="Email" errors={state.errors} />
+            </div>
+            
+            <div className='form-group'>
+              <input type='text' name= 'contactNumber' placeholder="Contact Number" className='form-control' value={formData.contactNumber} onChange={handleChange}></input>
+              {errors.contactNumber && <span className='error'>{errors.contactNumber}</span>}
+              <ValidationError field="contactNumber" prefix="Contact Number" errors={state.errors} />
             </div>
 
-              <div className='form-group'>
-                <select name='product' className='form-control' value={formData.product} onChange={handleChange}>
-                  <option value=''>Select a Product</option>
-                  <option value='product1'>Thermal Break Profile</option>
-                  <option value='product2'>Thermal Break Aluminium Profile</option>
-                  <option value='product3'>Aluminium Extrusion</option>
-                  <option value='product4'>HVAC Solutions</option>
-                  <option value='product5'>Powder Coating</option>
-                  <option value='product5'>Wooden Coating</option>
-                </select>
-                {errors.product && <span className='error'>{errors.product}</span>}
+            <div className='form-group'>
+              <select name='product' className='form-control' value={formData.product} onChange={handleChange}>
+                <option value=''>Select a Product</option>
+                <option value='Thermal Break Profile'>Thermal Break Profile</option>
+                <option value='Thermal Break Aluminium Profile'>Thermal Break Aluminium Profile</option>
+                <option value='Aluminium Extrusion'>Aluminium Extrusion</option>
+                <option value='HVAC Solutions'>HVAC Solutions</option>
+                <option value='Powder Coating'>Powder Coating</option>
+                <option value='Wooden Coating'>Wooden Coating</option>
+              </select>
+              {errors.product && <span className='error'>{errors.product}</span>}
+              <ValidationError field="product" prefix="Product" errors={state.errors} />
             </div>
 
             <div className='form-group'>
               <textarea name='message' placeholder='Your Message' className='form-control' value={formData.message} onChange={handleChange}></textarea>
               {errors.message && <span className='error'>{errors.message}</span>}
+              <ValidationError field="message" prefix="Message" errors={state.errors} />
             </div>
 
             <div className='form-group form-group-submit'>
-              <button type='submit' className='submit-btn'>Submit</button>
+              <button type='submit' className='submit-btn' disabled={state.submitting}>Submit</button>
             </div>
-            </form>
+          </form>
         </div>
       </div>
 
-      <div className="formspree-form">
-        <ContactForm />
-      </div>
 
       <div className='location-heading'>
-        <h1> LOCATIONS...</h1>
+        <h1> LOCATIONS</h1>
       </div>
       
       <div className='locations-container'>
