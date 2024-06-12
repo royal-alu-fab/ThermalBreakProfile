@@ -1,61 +1,44 @@
-import image1 from '../assets/products1.png'
-import image2 from '../assets/product-2.png'
-import image3 from '../assets/product3.png'
-import image4 from '../assets/thermalbreakprofile.jpg'
-
+import img1 from '../assets/hvac solutions/ahu hvac air handling unit profile 45mm.png'
+import img2 from '../assets/hvac solutions/ahu hvac industries aluminium thermal break profile 50mm.png'
+import img3 from '../assets/hvac solutions/ahu hvac thermal break profile 50mm.png'
+import img4 from '../assets/hvac solutions/hvac ahu aluminium thermal break profile 45mm.png'
+import img5 from '../assets/hvac solutions/hvac thermal break omega profile 50mm.png'
+import img6 from '../assets/hvac solutions/hvac ahu thermal break profile 45mm.png'
 export const Hvacsolutionlist = [
     {
         id:1,
-        image: image1,
-        name: "Thermal Break Profile",
-        desc: "Mold: C12*"
+        image: img1,
+        name: "Ahu hvac air handling unit profile 45mm",
+        desc: "Ahu hvac air handling unit profile 45mm"
     },
     {
         id:2,
-        image: image2,
-        name: "Thermal Break Profile",
-        desc: "Mold: C12*"
+        image: img2,
+        name: "Ahu hvac industries aluminium thermal break profile 50mm",
+        desc: "Ahu hvac industries aluminium thermal break profile 50mm"
     },
     {
         id:3,
-        image: image3,
-        name: "Thermal Break Profile",
-        desc: "Mold: C12*"
+        image: img3,
+        name: "Ahu hvac thermal break profile 50mm",
+        desc: "Ahu hvac thermal break profile 50mm"
     },
     {
         id:4,
-        image: image4,
-        name: "Thermal Break Profile",
-        desc: "Mold: C12*"
+        image: img4,
+        name: "HVAC ahu aluminium thermal break profile 45mm",
+        desc: "HVAC ahu aluminium thermal break profile 45mm"
     },
     {
         id:5,
-        image: image1,
-        name: "Thermal Break Profile",
-        desc: "Mold: C12*"
+        image: img5,
+        name: "HVAC thermal break omega profile 50mm",
+        desc: "HVAC thermal break omega profile 50mm"
     },
     {
         id:6,
-        image: image2,
-        name: "Thermal Break Profile",
-        desc: "Mold: C12*"
-    },
-    {
-        id:7,
-        image: image3,
-        name: "Thermal Break Profile",
-        desc: "Mold: C12*"
-    },
-    {
-        id:8,
-        image: image4,
-        name: "Thermal Break Profile",
-        desc: "Mold: C12*"
-    },
-    {
-        id:9,
-        image: image1,
-        name: "Thermal Break Profile",
-        desc: "Mold: C12*"
+        image: img6,
+        name: "HVAC ahu thermal break profile 45mm",
+        desc: "HVAC ahu thermal break profile 45mm"
     },
 ] ;

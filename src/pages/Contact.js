@@ -147,28 +147,32 @@ function Contact() {
       <div className='locations-container'>
       <div className='location'>
         <div className='map'>
-          <img src={Maps} alt='Location 1' />
+          <a href="https://maps.app.goo.gl/NCVk9dMgtBCdKxWF9" target="_blank" rel="noopener noreferrer">
+            <img src={Maps} alt='Location 1' />
+          </a>
         </div>
         <div className='address'>
-          <p>123 Main St, City, Country</p>
+          <p>Deshi Pakwan, Joshipura, Junagadh-362001</p>
         </div>
       </div>
       <div className='location'>
         <div className='map'>
-          <img src={Maps} alt='Location 2' />
+        <a href="https://maps.app.goo.gl/iS66FCdnQrvwupZN7" target="_blank" rel="noopener noreferrer">
+            <img src={Maps} alt='Location 1' />
+          </a>
         </div>
         <div className='address'>
-          <p>456 Second St, City, Country</p>
+          <p>307-G.I.D.C. Makarpura,Vadodara - 390010, Gujarat - India</p>
         </div>
       </div>
-      <div className='location'>
+      {/* <div className='location'>
         <div className='map'>
           <img src={Maps} alt='Location 3' />
         </div>
         <div className='address'>
           <p>789 Third St, City, Country</p>
         </div>
-      </div>
+      </div> */}
     </div>
       <div>
 
