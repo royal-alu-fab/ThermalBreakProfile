@@ -27,6 +27,9 @@ function ProductPage({ mainImage, mainAltText, title, description, productList }
           </div>
         ))}
       </div>
+
+      
+
       <div>
         <Getintouch />
       </div>

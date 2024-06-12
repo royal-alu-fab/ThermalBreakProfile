@@ -64,7 +64,7 @@ function Navbar() {
             <Link to='/thermalbreakprofile' onClick={closeMenu}>Thermal Break Profile</Link>
             <Link to='/thermalbreakaluminiumprofile' onClick={closeMenu}>Thermal Break Aluminium Profile </Link>
             <Link to='/aluminiumextrusion' onClick={closeMenu}>Aluminium Extrusion</Link>
-            <Link to='/hvacsolution' onClick={closeMenu}>HVAC Solution</Link>
+            <Link to='/hvacsolution' onClick={closeMenu}>HVAC Solutions</Link>
             <Link to='/powdercoating' onClick={closeMenu}>Powder Coating</Link>
             <Link to='/woodencoating' onClick={closeMenu}>Wooden Coating</Link>
           </div>

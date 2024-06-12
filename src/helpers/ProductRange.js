@@ -113,38 +113,38 @@ function ProductRange() {
           </ul>
         </div> */}
         <div className="product">
+        <Link to ='/thermalbreakprofile'>
           <h2>Thermal Break Profile</h2>
-          <Link to ='/thermalbreakprofile'>
-            <img src={tbp} alt="Thermal Break Profile" />
+          <img src={tbp} alt="Thermal Break Profile" />
           </ Link>
         </div>
         <div className="product">
-          <h2>Thermal Break Aluminium Profile</h2>
           <Link to ='/thermalbreakaluminiumprofile'>
+            <h2>Thermal Break Aluminium Profile</h2>
             <img src={tbap} alt="Thermal Break Aluminium Profile" /> 
           </ Link>
         </div>
         <div className="product">
-          <h2>Aluminium Extrusion</h2>
           <Link to ='/aluminiumextrusion'>
+            <h2>Aluminium Extrusion</h2>
             <img src={ae} alt="Aluminium Extrusion" /> 
           </Link> 
         </div>
         <div className="product">
-          <h2>HVAC Solutions</h2>
-          <Link to ='/thermalbreakprofile'>
+          <Link to ='/hvacsolution'>
+            <h2>HVAC Solutions</h2>
             <img src={hvac} alt="HVAC Solutions" /> 
           </Link>
         </div>
         <div className="product">
-          <h2>Powder Coating</h2>
           <Link to ='/powdercoating'>
+            <h2>Powder Coating</h2>      
             <img src={powdercoat} alt="Powder Coating" />
           </Link> 
         </div>
         <div className="product">
-          <h2>Wooden Coating</h2>
           <Link to ='/woodencoating'>
+            <h2>Wooden Coating</h2>      
             <img src={woodcoat} alt="Wooden Coating" /> 
           </Link>
         </div>

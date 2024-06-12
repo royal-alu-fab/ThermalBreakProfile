@@ -14,7 +14,7 @@ function Footer() {
       </div>
       <div className='text'>
         <p>All rights Reserved | </p>&nbsp;
-        <p> Royal Alu Fab pvt.ltd &reg; |</p> &nbsp;
+        <p> Royal Alu Fab pvt.ltd &copy; |</p> &nbsp;
         <p> Disclaimer | </p> &nbsp;
         <p> Privacy Policy </p> &nbsp;
       </div>

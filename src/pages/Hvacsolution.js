@@ -14,10 +14,10 @@ function Hvacsolution() {
           productList={Hvacsolutionlist}
         />
         <div style={{ marginTop: '20px' }}>
-          <a href="/hvac-solutions-catalogue.pdf" download="hvac-solutions-catalogue.pdf">
-            Download our Product Catalog
-          </a>
-        </div>
+        <a href="/hvac-solutions-catalogue.pdf" download="hvac-solutions-catalogue.pdf">
+          Download our Product Catalog
+        </a>
+      </div>
     </div>
   )
 }
