@@ -27,7 +27,13 @@ function ProductPage({ mainImage, mainAltText, title, description, productList }
           </div>
         ))}
       </div>
-
+      {title === 'HVAC Solutions' && (
+          <div style={{ marginTop: '20px' }}>
+            <a href="/hvac-solutions-catalogue.pdf" download="hvac-solutions-catalogue.pdf">
+              Download our Product Catalog for HVAC Solutions
+            </a>
+          </div>
+        )}
       
 
       <div>
