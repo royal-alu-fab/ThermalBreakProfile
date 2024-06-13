@@ -24,7 +24,7 @@ const CoreValues = () => {
       <div className="values-grid">
         {coreValues.map((value, index) => (
           <div key={index} className="value-card">
-            <img src={value.image} alt={value.title} />
+            {/* <img src={value.image} alt={value.title} /> */}
             <h3>{value.title}</h3>
             <p>{value.description}</p>
           </div>

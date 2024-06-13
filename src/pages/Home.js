@@ -4,6 +4,9 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import main1 from '../assets/main page/main1.jpg';
 import main2 from '../assets/main page/main2.png';
+import main3 from '../assets/main page/main3.JPG';
+import main4 from '../assets/homepage4.jpg';
+import maindisplay from '../assets/main page/main display.jpg';
 import Slider from 'react-slick';
 import ProductRange from '../helpers/ProductRange';
 import CoreValues from '../helpers/Corevalues';
@@ -32,13 +35,17 @@ function Home() {
             <img src={ main2 } alt='home2'/>
           </div>
 
-          {/* <div className='image'>
-            <img src={ home4 } alt='home4'/>
+          <div className='image'>
+            <img src={ main3 } alt='main3'/>
           </div>
 
           <div className='image'>
-            <img src={ home5 } alt='home5'/>
-          </div> */}
+            <img src={ main4 } alt='home5'/>
+          </div>
+
+          <div className='image'>
+            <img src={ maindisplay } alt='home5'/>
+          </div>
         </Slider>
       </div>
     
