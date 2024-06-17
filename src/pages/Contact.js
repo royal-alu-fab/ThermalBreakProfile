@@ -90,7 +90,7 @@ function Contact() {
           </div>
           <div className='contact-item'>
             <span className='contact-icons'><FaHome /></span>
-            <div><p>307-G.I.D.C. Makarpura, <br /> Vadodara - 390010 <br /> Gujarat - India</p></div>
+            <div><p>G.I.D.C. Makarpura, <br /> Vadodara - 390010 <br /> Gujarat - India</p></div>
           </div>
         </div>
 

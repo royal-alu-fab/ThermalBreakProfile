@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import logo from '../assets/llogo.png';
+import logomain from '../assets/logomain.jpg';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
 import { FaBars } from "react-icons/fa";
@@ -48,7 +49,7 @@ function Navbar() {
   return (
     <div className={`navbar ${scrollUp ? 'nav-down' : 'nav-up'}`}>
       <div className='leftside'>
-        <img src= {logo} alt='Logo'></img>
+        <img src= {logomain} alt='Logo'></img>
       </div>
       
        <div className='menuitem' onClick={toggleMenu}><FaBars /></div>

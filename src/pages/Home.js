@@ -4,9 +4,9 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import main1 from '../assets/main page/main1.jpg';
 import main2 from '../assets/main page/main2.png';
-import main3 from '../assets/main page/main3.JPG';
-import main4 from '../assets/homepage4.jpg';
-import maindisplay from '../assets/main page/main display.jpg';
+import main3 from '../assets/main page/main3.jpg';
+import main4 from '../assets/main page/main4.jpg';
+import main5 from '../assets/main page/main5.jpg';
 import Slider from 'react-slick';
 import ProductRange from '../helpers/ProductRange';
 import CoreValues from '../helpers/Corevalues';
@@ -44,13 +44,13 @@ function Home() {
           </div>
 
           <div className='image'>
-            <img src={ maindisplay } alt='home5'/>
+            <img src={ main5 } alt='home5'/>
           </div>
         </Slider>
       </div>
     
     <div className='hometext1'>
-        <h1>Revolutionizingggg Innovations in India's Building Solutions</h1>
+        <h1>Revolutionizing Innovations in India's Building Solutions</h1>
         
         <p>Royal Alu Fab stands at the forefront of thermal break windows technology in India. With two decades of expertise, we've established a reputation for unwavering quality, delivering cutting-edge products and services nationwide through our Eco-intelligent solutions. Our commitment extends to offering the broadest array of top-tier, energy-efficient, and sleek aluminum profiles and thermal break profiles globally.</p>
         
