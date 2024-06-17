@@ -50,7 +50,7 @@ function Home() {
       </div>
     
     <div className='hometext1'>
-        <h1>Revolutionizing Innovations in India's Building Solutions</h1>
+        <h1>Revolutionizingggg Innovations in India's Building Solutions</h1>
         
         <p>Royal Alu Fab stands at the forefront of thermal break windows technology in India. With two decades of expertise, we've established a reputation for unwavering quality, delivering cutting-edge products and services nationwide through our Eco-intelligent solutions. Our commitment extends to offering the broadest array of top-tier, energy-efficient, and sleek aluminum profiles and thermal break profiles globally.</p>
         
