@@ -1,5 +1,6 @@
+import {useEffect} from 'react';
 import './App.css';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes, useNavigate, Navigate} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Scrolltotop from './pages/Scrolltotop';
 import Home from './pages/Home';
@@ -15,11 +16,27 @@ import Powdercoating from './pages/Powdercoating';
 import Woodencoating from './pages/Woodencoating';
 
 function App () {
+    const RedirectHandler = () => {
+      const navigate = useNavigate();
+
+      useEffect(() => {
+        // Check if there's a redirect query parameter
+        const params = new URLSearchParams(window.location.search);
+        const redirectPath = params.get('redirect');
+        if (redirectPath) {
+          navigate(redirectPath, { replace: true });
+        }
+      }, [navigate]);
+
+      return null;
+    };
+
   return(
     <div className="App"> 
        <Router>
         <Scrolltotop />
         <Navbar />
+        <RedirectHandler />
         <div className='maincontent'>
         <Routes>
           <Route path='/' element={<Home />}></Route>
@@ -32,6 +49,7 @@ function App () {
           <Route path='/aluminiumextrusion' element={<Aluminiumextrusion />}></Route>
           <Route path='/powdercoating' element={<Powdercoating />}></Route>
           <Route path='/woodencoating' element={<Woodencoating />}></Route>
+          <Route path="*" element={<Navigate to="/" replace />} />
           
         </Routes> 
         </div>
