@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.12ac42f2.css",
-    "main.js": "./static/js/main.9c69ccc5.js",
+    "main.css": "./static/css/main.cc4edd52.css",
+    "main.js": "./static/js/main.c009fc50.js",
     "static/js/453.ed407ad3.chunk.js": "./static/js/453.ed407ad3.chunk.js",
     "static/media/powder coating plant.png": "./static/media/powder coating plant.432b00bff50a02e65feb.png",
     "static/media/hvac ahu aluminium thermal break profile 45mm.png": "./static/media/hvac ahu aluminium thermal break profile 45mm.4cd4045bb53ba30fc016.png",
@@ -46,7 +46,7 @@
     "static/media/product3.png": "./static/media/product3.f09d4ba74627f0b79d3e.png",
     "static/media/aluminium thermal break profile sliding window.png": "./static/media/aluminium thermal break profile sliding window.9c95bb1e719718f67361.png",
     "static/media/Polyamide 19.5 multi-point locking euro series.png": "./static/media/Polyamide 19.5 multi-point locking euro series.3c5416d7f4501ee03631.png",
-    "static/media/main display.jpg": "./static/media/main display.cf19e546d84c07bcd2af.jpg",
+    "static/media/main4.jpg": "./static/media/main4.cf19e546d84c07bcd2af.jpg",
     "static/media/C14.8-6.png": "./static/media/C14.8-6.f625ab880719f083527e.png",
     "static/media/C12.png": "./static/media/C12.9bc2f20fcfbc67792bfd.png",
     "static/media/C16-1.png": "./static/media/C16-1.2707bff8a5e5d9ba3c5c.png",
@@ -61,7 +61,6 @@
     "static/media/home-2.jpg": "./static/media/home-2.706b4ca8f546a234a902.jpg",
     "static/media/AE.jpg": "./static/media/AE.b932b5f6a8fbceabdf68.jpg",
     "static/media/aboutus.jpg": "./static/media/aboutus.055f774e3b69d6de5e98.jpg",
-    "static/media/homepage4.jpg": "./static/media/homepage4.96a7af8644cf23e3ab24.jpg",
     "static/media/mlogob.png": "./static/media/mlogob.d5cf6f5424356425d4d8.png",
     "static/media/home6.jpg": "./static/media/home6.61f254716439ac8a60b5.jpg",
     "static/media/thermalhd.JPG": "./static/media/thermalhd.0cfa8c00b5bc8996b232.JPG",
@@ -69,8 +68,10 @@
     "static/media/productmain.jpg": "./static/media/productmain.855bb920b3b13ec0c9b9.jpg",
     "static/media/thermal-break-aluminium-profile.jpg": "./static/media/thermal-break-aluminium-profile.60df206993c652403147.jpg",
     "static/media/contactus-2.jpg": "./static/media/contactus-2.0ee27617fda482c906e8.jpg",
-    "static/media/main3.JPG": "./static/media/main3.756f2bf1d5410c676dc2.JPG",
+    "static/media/logomain.jpg": "./static/media/logomain.d8a58ad14a2aec7575da.jpg",
     "static/media/llogo.png": "./static/media/llogo.dcf50a34fa4d13968bc1.png",
+    "static/media/main3.jpg": "./static/media/main3.0e3c32372c47acadb083.jpg",
+    "static/media/main5.jpg": "./static/media/main5.2c018260f532eb3cb4dd.jpg",
     "static/media/innovation.png": "./static/media/innovation.e0cc74b87334202ee1f5.png",
     "static/media/excellence.png": "./static/media/excellence.329af39609ab07efc953.png",
     "static/media/product-1.jpg": "./static/media/product-1.66374f815124aaa0ed49.jpg",
@@ -82,12 +83,12 @@
     "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
-    "main.12ac42f2.css.map": "./static/css/main.12ac42f2.css.map",
-    "main.9c69ccc5.js.map": "./static/js/main.9c69ccc5.js.map",
+    "main.cc4edd52.css.map": "./static/css/main.cc4edd52.css.map",
+    "main.c009fc50.js.map": "./static/js/main.c009fc50.js.map",
     "453.ed407ad3.chunk.js.map": "./static/js/453.ed407ad3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12ac42f2.css",
-    "static/js/main.9c69ccc5.js"
+    "static/css/main.cc4edd52.css",
+    "static/js/main.c009fc50.js"
   ]
 }
