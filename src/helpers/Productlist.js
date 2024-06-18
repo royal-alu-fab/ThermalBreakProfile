@@ -37,7 +37,7 @@ export const Productlist =[
     },
     {
         id:5,
-        head: " Powder Coating ",
+        head: "Aluminium Profile Powder Coating ",
         para: "Powder coating is a process where dry powder is applied electrostatically to a surface, then cured under heat...",
         image: powderCoatingImage,
         url: '/powdercoating',

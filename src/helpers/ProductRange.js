@@ -7,11 +7,6 @@ import ae from '../assets/aluminium extrusion/AE.jpg';
 import hvac from '../assets/hvac solutions/hvac.jpg';
 import woodcoat from '../assets/wooden coating/wooden.jpg';
 import powdercoat from '../assets/powder coating/powdercoating.jpg';
-import recent1 from '../assets/home-2.jpg';
-import recent2 from '../assets/home-3.jpg';
-import recent3 from '../assets/home-5.jpg';
-import recent4 from '../assets/home6.jpg';
-import recent5 from '../assets/product-1.jpg';
 import '../styles/ProductRange.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -138,7 +133,7 @@ function ProductRange() {
         </div>
         <div className="product">
           <Link to ='/powdercoating'>
-            <h2>Powder Coating</h2>      
+            <h2>Aluminium Profile Powder Coating</h2>      
             <img src={powdercoat} alt="Powder Coating" />
           </Link> 
         </div>
