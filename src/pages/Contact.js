@@ -82,15 +82,15 @@ function Contact() {
         <div className='contact-detail'>
           <div className='contact-item'>
             <span className='contact-icons'><IoIosMail /></span>
-            <div><p> royalaluthermalbreaksales@gmail.com</p></div> 
+            <p> royalaluthermalbreaksales@gmail.com</p>
           </div>
           <div className='contact-item'>
             <span className='contact-icons'><FaPhone /></span>
-            <div><p>8347555547</p></div>
+            <p>8347555547</p>
           </div>
           <div className='contact-item'>
             <span className='contact-icons'><FaHome /></span>
-            <div><p>G.I.D.C. Makarpura, <br /> Vadodara - 390010 <br /> Gujarat - India</p></div>
+            <p>G.I.D.C. Makarpura, <br /> Vadodara - 390010 <br /> Gujarat - India</p>
           </div>
         </div>
 
