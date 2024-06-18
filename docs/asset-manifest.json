@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.cc4edd52.css",
-    "main.js": "./static/js/main.c009fc50.js",
+    "main.css": "./static/css/main.94e131eb.css",
+    "main.js": "./static/js/main.4305643a.js",
     "static/js/453.ed407ad3.chunk.js": "./static/js/453.ed407ad3.chunk.js",
     "static/media/powder coating plant.png": "./static/media/powder coating plant.432b00bff50a02e65feb.png",
     "static/media/hvac ahu aluminium thermal break profile 45mm.png": "./static/media/hvac ahu aluminium thermal break profile 45mm.4cd4045bb53ba30fc016.png",
@@ -55,26 +55,20 @@
     "static/media/C25.png": "./static/media/C25.6ca670f7b9253d7f4210.png",
     "static/media/I12.png": "./static/media/I12.1059e2a8f32bd158ffc2.png",
     "static/media/LDG-19.4.png": "./static/media/LDG-19.4.f116a0979814d873c8c2.png",
-    "static/media/home-3.jpg": "./static/media/home-3.e9ae258fc9a3329f9709.jpg",
     "static/media/I14.png": "./static/media/I14.299a391139bf5e6a29ab.png",
     "static/media/I16.png": "./static/media/I16.268080d95837d3b53398.png",
-    "static/media/home-2.jpg": "./static/media/home-2.706b4ca8f546a234a902.jpg",
     "static/media/AE.jpg": "./static/media/AE.b932b5f6a8fbceabdf68.jpg",
     "static/media/aboutus.jpg": "./static/media/aboutus.055f774e3b69d6de5e98.jpg",
     "static/media/mlogob.png": "./static/media/mlogob.d5cf6f5424356425d4d8.png",
-    "static/media/home6.jpg": "./static/media/home6.61f254716439ac8a60b5.jpg",
     "static/media/thermalhd.JPG": "./static/media/thermalhd.0cfa8c00b5bc8996b232.JPG",
-    "static/media/home-5.jpg": "./static/media/home-5.70f8bf07fcd633d6025f.jpg",
     "static/media/productmain.jpg": "./static/media/productmain.855bb920b3b13ec0c9b9.jpg",
     "static/media/thermal-break-aluminium-profile.jpg": "./static/media/thermal-break-aluminium-profile.60df206993c652403147.jpg",
     "static/media/contactus-2.jpg": "./static/media/contactus-2.0ee27617fda482c906e8.jpg",
     "static/media/logomain.jpg": "./static/media/logomain.d8a58ad14a2aec7575da.jpg",
-    "static/media/llogo.png": "./static/media/llogo.dcf50a34fa4d13968bc1.png",
     "static/media/main3.jpg": "./static/media/main3.0e3c32372c47acadb083.jpg",
     "static/media/main5.jpg": "./static/media/main5.2c018260f532eb3cb4dd.jpg",
     "static/media/innovation.png": "./static/media/innovation.e0cc74b87334202ee1f5.png",
     "static/media/excellence.png": "./static/media/excellence.329af39609ab07efc953.png",
-    "static/media/product-1.jpg": "./static/media/product-1.66374f815124aaa0ed49.jpg",
     "static/media/experienced team.png": "./static/media/experienced team.6542917982e6929fe8e3.png",
     "static/media/customerfocus.png": "./static/media/customerfocus.808b9a2744b1274690b0.png",
     "static/media/powdercoating.jpg": "./static/media/powdercoating.4a8218795c4ce323a524.jpg",
@@ -83,12 +77,12 @@
     "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
-    "main.cc4edd52.css.map": "./static/css/main.cc4edd52.css.map",
-    "main.c009fc50.js.map": "./static/js/main.c009fc50.js.map",
+    "main.94e131eb.css.map": "./static/css/main.94e131eb.css.map",
+    "main.4305643a.js.map": "./static/js/main.4305643a.js.map",
     "453.ed407ad3.chunk.js.map": "./static/js/453.ed407ad3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc4edd52.css",
-    "static/js/main.c009fc50.js"
+    "static/css/main.94e131eb.css",
+    "static/js/main.4305643a.js"
   ]
 }
