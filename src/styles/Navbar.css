@@ -27,6 +27,9 @@
     padding-left: 150px;
     margin-right: 10px;
 }
+.leftside :hover{
+    cursor: pointer;
+}
 .rightside{
     width: 50%;
     flex: 50%;
@@ -59,7 +62,7 @@
     text-decoration: none;
     text-align: center;
 }
-.navbar a:hover{
+.rightside a:hover{
     background-color: #f0f0f0;
     justify-content: center;
     border-radius: 15px;
