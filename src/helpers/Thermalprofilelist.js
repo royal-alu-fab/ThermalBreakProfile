@@ -1,5 +1,3 @@
-import polyamidePA66Image from '../assets/thermal break profile/polyamide thermal break profile PA66 GF30 percent.png';
-import glassFibreReinforcedPolyamideThermalBreakProfile from '../assets/thermal break profile/glass-fibre-reinforced-polyamide-thermal-break-profile-for-aluminium-windows.png';
 import polyamideMultiPointLockingEuroSeries from '../assets/thermal break profile/Polyamide 19.5 multi-point locking euro series.png';
 import img4 from '../assets/thermal break profile/C12.png';
 import img5 from '../assets/thermal break profile/C14.8-6.png';

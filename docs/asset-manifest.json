@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.66c0743e.css",
-    "main.js": "./static/js/main.5d2e8007.js",
+    "main.js": "./static/js/main.94bf6eea.js",
     "static/js/453.ed407ad3.chunk.js": "./static/js/453.ed407ad3.chunk.js",
     "static/media/powder coating plant.png": "./static/media/powder coating plant.432b00bff50a02e65feb.png",
     "static/media/hvac ahu aluminium thermal break profile 45mm.png": "./static/media/hvac ahu aluminium thermal break profile 45mm.4cd4045bb53ba30fc016.png",
@@ -30,18 +30,21 @@
     "static/media/wooden-2.png": "./static/media/wooden-2.cc823627aa79b0214c95.png",
     "static/media/main1.jpg": "./static/media/main1.c44c7fa227297e82a5f6.jpg",
     "static/media/aluminium powder coating.png": "./static/media/aluminium powder coating.5a518bf5ff767d341c9b.png",
+    "static/media/Aluminium Extrusion Products.png": "./static/media/Aluminium Extrusion Products.2ad4f3b81af58de018a8.png",
     "static/media/powder coating product.png": "./static/media/powder coating product.668565dbebeb1fac8197.png",
-    "static/media/glass-fibre-reinforced-polyamide-thermal-break-profile-for-aluminium-windows.png": "./static/media/glass-fibre-reinforced-polyamide-thermal-break-profile-for-aluminium-windows.9b0498fc14f719023b00.png",
     "static/media/product-2.png": "./static/media/product-2.1f70f9d645e96d1cdd89.png",
-    "static/media/polyamide thermal break profile PA66 GF30 percent.png": "./static/media/polyamide thermal break profile PA66 GF30 percent.55e3fa296eae98e9d97b.png",
     "static/media/hvac thermal break omega profile 50mm.png": "./static/media/hvac thermal break omega profile 50mm.e73bf0c3fb24e6da0fa6.png",
     "static/media/main2.png": "./static/media/main2.577a95c64cc41d8a233e.png",
     "static/media/products1.png": "./static/media/products1.f23775cdc9e7fb16d6df.png",
+    "static/media/Aluminium Extrusion 80mm.png": "./static/media/Aluminium Extrusion 80mm.fcb3fe2148e8d56b282f.png",
     "static/media/product3.png": "./static/media/product3.f09d4ba74627f0b79d3e.png",
     "static/media/Polyamide 19.5 multi-point locking euro series.png": "./static/media/Polyamide 19.5 multi-point locking euro series.3c5416d7f4501ee03631.png",
+    "static/media/T Slot Aluminium Extrusion Profile .png": "./static/media/T Slot Aluminium Extrusion Profile .5e65c15b0e52d77368bc.png",
     "static/media/polyamide aluminium thermal break profile.jpg": "./static/media/polyamide aluminium thermal break profile.42cd5f13fb855f1a19b3.jpg",
+    "static/media/Custom Aluminium Extrusion.png": "./static/media/Custom Aluminium Extrusion.ba55c31f4f32d2246f73.png",
     "static/media/main4.jpg": "./static/media/main4.cf19e546d84c07bcd2af.jpg",
     "static/media/polyamide Thermal barrier extrusion profile.png": "./static/media/polyamide Thermal barrier extrusion profile.4dc9da18acafd5855d5b.png",
+    "static/media/Aluminium Extrusion 40mm.png": "./static/media/Aluminium Extrusion 40mm.b465f73033feb27684ed.png",
     "static/media/aluminium thermal break profile cashnet window.jpg": "./static/media/aluminium thermal break profile cashnet window.a6bc52f67a03beaf62a1.jpg",
     "static/media/3 in 1 openable thermal break with safety grill window profile .jpg": "./static/media/3 in 1 openable thermal break with safety grill window profile .6be536fdafd02acb7498.jpg",
     "static/media/C14.8-6.png": "./static/media/C14.8-6.f625ab880719f083527e.png",
@@ -79,11 +82,11 @@
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
     "main.66c0743e.css.map": "./static/css/main.66c0743e.css.map",
-    "main.5d2e8007.js.map": "./static/js/main.5d2e8007.js.map",
+    "main.94bf6eea.js.map": "./static/js/main.94bf6eea.js.map",
     "453.ed407ad3.chunk.js.map": "./static/js/453.ed407ad3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66c0743e.css",
-    "static/js/main.5d2e8007.js"
+    "static/js/main.94bf6eea.js"
   ]
 }
