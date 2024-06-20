@@ -1,9 +1,17 @@
-import img1 from '../assets/thermal break aluminium profile/3 in 1 openable thermal break with safety grill window profile.png'
-import img2 from '../assets/thermal break aluminium profile/aluminium thermal break openable window.png'
-import img3 from '../assets/thermal break aluminium profile/aluminium thermal break profile cashnet window.png'
-import img4 from '../assets/thermal break aluminium profile/aluminium thermal break profile sliding window.png'
-import img5 from '../assets/thermal break aluminium profile/polyamide aluminium thermal break profile.png'
+// import img1 from '../assets/thermal break aluminium profile/3 in 1 openable thermal break with safety grill window profile.png'
+// import img2 from '../assets/thermal break aluminium profile/aluminium thermal break openable window.png'
+// import img3 from '../assets/thermal break aluminium profile/aluminium thermal break profile cashnet window.png'
+// import img4 from '../assets/thermal break aluminium profile/aluminium thermal break profile sliding window.png'
+// import img5 from '../assets/thermal break aluminium profile/polyamide aluminium thermal break profile.png'
+// import img6 from '../assets/thermal break aluminium profile/polyamide Thermal barrier extrusion profile.png'
+import img1 from '../assets/thermal break aluminium profile/3 in 1 openable thermal break with safety grill window profile .jpg'
+import img2 from '../assets/thermal break aluminium profile/aluminium thermal break openable window.jpg'
+import img3 from '../assets/thermal break aluminium profile/aluminium thermal break profile cashnet window.jpg'
+import img4 from '../assets/thermal break aluminium profile/aluminium thermal break profile sliding window.jpg'
+import img5 from '../assets/thermal break aluminium profile/polyamide aluminium thermal break profile.jpg'
 import img6 from '../assets/thermal break aluminium profile/polyamide Thermal barrier extrusion profile.png'
+
+
 
 export const Thermalaluminiumlist = [
     {

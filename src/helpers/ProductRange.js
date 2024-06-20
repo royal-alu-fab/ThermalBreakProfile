@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import tbp from '../assets/thermal break profile/tbp.jpg';
 import tbap from '../assets/thermal break aluminium profile/tbap1.jpg';
 import ae from '../assets/aluminium extrusion/AE.jpg';
-import hvac from '../assets/hvac solutions/hvac.jpg';
+// import hvac from '../assets/hvac solutions/hvac.jpg';
 import woodcoat from '../assets/wooden coating/wooden.jpg';
 import powdercoat from '../assets/powder coating/powdercoating.jpg';
 import '../styles/ProductRange.css';
@@ -125,12 +125,12 @@ function ProductRange() {
             <img src={ae} alt="Aluminium Extrusion" /> 
           </Link> 
         </div>
-        <div className="product">
+        {/* <div className="product">
           <Link to ='/hvacsolution'>
             <h2>HVAC Solutions</h2>
             <img src={hvac} alt="HVAC Solutions" /> 
           </Link>
-        </div>
+        </div> */}
         <div className="product">
           <Link to ='/powdercoating'>
             <h2>Aluminium Profile Powder Coating</h2>      

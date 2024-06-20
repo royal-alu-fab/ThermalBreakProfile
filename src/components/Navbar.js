@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react';
+import React,{useState,useEffect,useRef} from 'react';
 // import logo from '../assets/llogo.png';
 import logomain from '../assets/logomain.jpg';
 import { Link } from 'react-router-dom';
@@ -11,6 +11,8 @@ function Navbar() {
   const [dropdownVisible, setDropdownVisible] = useState(false);
   const [scrollUp, setScrollUp] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const menuRef = useRef(null);
+  const toggleButtonRef = useRef(null);
 
     const toggleMenu = () => {
         setShowMenu(!showMenu);
@@ -27,38 +29,76 @@ function Navbar() {
       setDropdownVisible(false);
     };
 
-    const handleScroll = () => {
-      if (window.scrollY > lastScrollY) {
-        // Scrolling down
-        setScrollUp(false);
-      } else {
-        // Scrolling up
-        setScrollUp(true);
-      }
-      setLastScrollY(window.scrollY);
-    };
+    // const handleScroll = () => {
+    //   if (window.scrollY > lastScrollY) {
+    //     // Scrolling down
+    //     setScrollUp(false);
+    //   } else {
+    //     // Scrolling up
+    //     setScrollUp(true);
+    //   }
+    //   setLastScrollY(window.scrollY);
+    //   closeMenu();
+    // };
 
+    // useEffect(() => {
+    //   window.addEventListener('scroll', handleScroll);
+  
+    //   return () => {
+    //     window.removeEventListener('scroll', handleScroll);
+    //   };
+    // }, [lastScrollY]);
+    
     useEffect(() => {
-      window.addEventListener('scroll', handleScroll);
+      const handleClickOutside = (event) => {
+        if (menuRef.current && 
+          !menuRef.current.contains(event.target) && 
+          toggleButtonRef.current && 
+          !toggleButtonRef.current.contains(event.target)
+        ) {
+          closeMenu();
+        }
+      };
+  
+      if (showMenu) {
+        document.addEventListener('click', handleClickOutside);
+      } else {
+        document.removeEventListener('click', handleClickOutside);
+      }
   
       return () => {
-        window.removeEventListener('scroll', handleScroll);
+        document.removeEventListener('click', handleClickOutside);
       };
-    }, [lastScrollY]);
+    }, [showMenu]);
 
+    useEffect(() => {
+      const handleScroll = () =>{
+        if (showMenu) {
+          closeMenu();
+        }
+      };
+
+      window.addEventListener('scroll',handleScroll);
+
+      return() => {
+        window.removeEventListener('scroll',handleScroll);
+      };
+    }, [showMenu]);
+
+    
   return (
-    <div className={`navbar ${scrollUp ? 'nav-down' : 'nav-up'}`}>
+    // <div className={`navbar ${scrollUp ? 'nav-down' : 'nav-up'}`}>
+      <div className='navbar'>
       <div className='leftside'>
         <Link to = "/">
           <img src= {logomain} alt='Logo'></img>
         </Link>
       </div>
       
-       <div className='menuitem' onClick={toggleMenu}><FaBars /></div>
+       <div ref={toggleButtonRef} className='menuitem' onClick={toggleMenu}><FaBars /></div>
       
-      {/* <div className='rightside'> */}
-      <div className={`rightside ${showMenu ? 'active' : ''}`}>
-        <Link to= '/' onClick={closeMenu}>Home</Link>
+       <div ref={menuRef} className={`rightside ${showMenu ? 'active' : ''}`}>
+        <Link to='/' onClick={closeMenu}>Home</Link>
         
         <div className='dropdown' onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
         <Link to= '/products' className='dropdown-link'>Products</Link>
@@ -67,14 +107,12 @@ function Navbar() {
             <Link to='/thermalbreakprofile' onClick={closeMenu}>Thermal Break Profile</Link>
             <Link to='/thermalbreakaluminiumprofile' onClick={closeMenu}>Thermal Break Aluminium Profile </Link>
             <Link to='/aluminiumextrusion' onClick={closeMenu}>Aluminium Extrusion</Link>
-            <Link to='/hvacsolution' onClick={closeMenu}>HVAC Solutions</Link>
+            {/* <Link to='/hvacsolution' onClick={closeMenu}>HVAC Solutions</Link> */}
             <Link to='/powdercoating' onClick={closeMenu}>Aluminium Profile Powder Coating</Link>
             <Link to='/woodencoating' onClick={closeMenu}>Wooden Coating</Link>
           </div>
           )}
         </div>
-        
-        {/* <Link to= '/products' onClick={closeMenu}>Products</Link> */}
         
         <Link to= '/about' onClick={closeMenu}>About us</Link>
         <Link to= '/contact' className='contact' onClick={closeMenu}>Contact us</Link>

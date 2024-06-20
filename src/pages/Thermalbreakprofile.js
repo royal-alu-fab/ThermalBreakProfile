@@ -1,6 +1,7 @@
 import React from 'react'
 import ProductPage from '../pages/Productpage';
-import mainImage from '../assets/thermalbreakprofile.jpg';
+// import mainImage from '../assets/thermalbreakprofile.jpg';
+import mainImage from '../assets/thermal break profile/thermalbreakprofilemain.jpg';
 import {Thermalprofilelist} from '../helpers/Thermalprofilelist';
 
 function Thermalbreakprofile() {
