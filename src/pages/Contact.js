@@ -152,7 +152,7 @@ function Contact() {
           </a>
         </div>
         <div className='address'>
-          <p>Deshi Pakwan, Joshipura, Junagadh-362001</p>
+          <p>Royal Powder Coat, Vadodara - 390010, Gujarat</p>
         </div>
       </div>
       {/* <div className='location'>
