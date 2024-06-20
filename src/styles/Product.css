@@ -1,7 +1,9 @@
 .products{
-    margin: 20px; 
+    /* margin: 20px;  */
+    justify-content: center;
 }
 .part1{
+    margin: 20px;
     box-sizing: border-box; 
     justify-content: center;
     background-color: rgba(5, 54, 89, 0.7);
@@ -36,7 +38,7 @@
     height: 100%;
 }
 .text2{
-    margin: 20px;
+    margin-top: 20px;
     font-size: 25px;
 }
 .product-container{
@@ -104,6 +106,7 @@
     }
     .part1{
         display: grid;
+        margin: 0px;
         width: 100%;
     }
     .text1, .photo1{

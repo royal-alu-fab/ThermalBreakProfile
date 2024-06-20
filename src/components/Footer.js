@@ -8,9 +8,9 @@ function Footer() {
   return (
     <div className='footer'>
       <div className='icons'>
-        <div><a href='https://instagram.com' target="blank" ><FaInstagram /></a></div>
+        <div><a href='https://instagram.com/royalpowdercoat?igsh=bG56NWh4ZTBIdXlx' target="blank" ><FaInstagram /></a></div>
         <div><a href='https://facebook.com' target="blank" ><FaFacebook /></a></div>
-        <div><a href='https://youtube.com' target="blank" ><FaYoutube /></a></div>
+        <div><a href='https://youtube.com/@royalpowdercoatrpc?si=028zaK12xd2B5JtA' target="blank" ><FaYoutube /></a></div>
       </div>
       <div className='text'>
         <p>All rights Reserved | </p>&nbsp;

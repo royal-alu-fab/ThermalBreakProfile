@@ -4,7 +4,7 @@ import '../styles/Contact.css';
 import { IoIosMail } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
 import { FaHome } from "react-icons/fa";
-import Maps from '../assets/googlemaps.png';
+import Maps from '../assets/Googlemaps.jpg';
 import { useForm, ValidationError } from '@formspree/react';
 
 function Contact() {
@@ -147,7 +147,7 @@ function Contact() {
       <div className='locations-container'>
       <div className='location'>
         <div className='map'>
-          <a href="https://maps.app.goo.gl/NCVk9dMgtBCdKxWF9" target="_blank" rel="noopener noreferrer">
+          <a href="https://maps.app.goo.gl/QxzFzuJNRBsPdAAj8" target="_blank" rel="noopener noreferrer">
             <img src={Maps} alt='Location 1' />
           </a>
         </div>

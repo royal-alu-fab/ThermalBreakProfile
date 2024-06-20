@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.5ea79bd2.css",
-    "main.js": "./static/js/main.b999564b.js",
+    "main.css": "./static/css/main.7ee17c91.css",
+    "main.js": "./static/js/main.a1856ad8.js",
     "static/js/453.ed407ad3.chunk.js": "./static/js/453.ed407ad3.chunk.js",
     "static/media/powder coating plant.png": "./static/media/powder coating plant.432b00bff50a02e65feb.png",
     "static/media/hvac ahu aluminium thermal break profile 45mm.png": "./static/media/hvac ahu aluminium thermal break profile 45mm.4cd4045bb53ba30fc016.png",
@@ -34,7 +34,6 @@
     "static/media/glass-fibre-reinforced-polyamide-thermal-break-profile-for-aluminium-windows.png": "./static/media/glass-fibre-reinforced-polyamide-thermal-break-profile-for-aluminium-windows.9b0498fc14f719023b00.png",
     "static/media/product-2.png": "./static/media/product-2.1f70f9d645e96d1cdd89.png",
     "static/media/polyamide thermal break profile PA66 GF30 percent.png": "./static/media/polyamide thermal break profile PA66 GF30 percent.55e3fa296eae98e9d97b.png",
-    "static/media/googlemaps.png": "./static/media/googlemaps.a3a5ad4d9e4218fe0a4f.png",
     "static/media/hvac thermal break omega profile 50mm.png": "./static/media/hvac thermal break omega profile 50mm.e73bf0c3fb24e6da0fa6.png",
     "static/media/main2.png": "./static/media/main2.577a95c64cc41d8a233e.png",
     "static/media/products1.png": "./static/media/products1.f23775cdc9e7fb16d6df.png",
@@ -54,6 +53,7 @@
     "static/media/I12.png": "./static/media/I12.1059e2a8f32bd158ffc2.png",
     "static/media/LDG-19.4.png": "./static/media/LDG-19.4.f116a0979814d873c8c2.png",
     "static/media/I14.png": "./static/media/I14.299a391139bf5e6a29ab.png",
+    "static/media/Googlemaps.jpg": "./static/media/Googlemaps.438491fefbf4a99bb082.jpg",
     "static/media/I16.png": "./static/media/I16.268080d95837d3b53398.png",
     "static/media/AE.jpg": "./static/media/AE.b932b5f6a8fbceabdf68.jpg",
     "static/media/aboutus.jpg": "./static/media/aboutus.055f774e3b69d6de5e98.jpg",
@@ -78,12 +78,12 @@
     "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
-    "main.5ea79bd2.css.map": "./static/css/main.5ea79bd2.css.map",
-    "main.b999564b.js.map": "./static/js/main.b999564b.js.map",
+    "main.7ee17c91.css.map": "./static/css/main.7ee17c91.css.map",
+    "main.a1856ad8.js.map": "./static/js/main.a1856ad8.js.map",
     "453.ed407ad3.chunk.js.map": "./static/js/453.ed407ad3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ea79bd2.css",
-    "static/js/main.b999564b.js"
+    "static/css/main.7ee17c91.css",
+    "static/js/main.a1856ad8.js"
   ]
 }
