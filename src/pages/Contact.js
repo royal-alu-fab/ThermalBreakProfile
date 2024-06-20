@@ -4,7 +4,7 @@ import '../styles/Contact.css';
 import { IoIosMail } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
 import { FaHome } from "react-icons/fa";
-import Maps from '../assets/googlemaps.png';
+import Maps from '../assets/Googlemaps.jpg';
 import { useForm, ValidationError } from '@formspree/react';
 
 function Contact() {
@@ -82,15 +82,15 @@ function Contact() {
         <div className='contact-detail'>
           <div className='contact-item'>
             <span className='contact-icons'><IoIosMail /></span>
-            <div><p> royalaluthermalbreaksales@gmail.com</p></div> 
+            <p> royalaluthermalbreaksales@gmail.com</p>
           </div>
           <div className='contact-item'>
             <span className='contact-icons'><FaPhone /></span>
-            <div><p>8347555547</p></div>
+            <p>8347555547</p>
           </div>
           <div className='contact-item'>
             <span className='contact-icons'><FaHome /></span>
-            <div><p>307-G.I.D.C. Makarpura, <br /> Vadodara - 390010 <br /> Gujarat - India</p></div>
+            <p>G.I.D.C. Makarpura, <br /> Vadodara - 390010 <br /> Gujarat - India</p>
           </div>
         </div>
 
@@ -141,21 +141,21 @@ function Contact() {
 
 
       <div className='location-heading'>
-        <h1> LOCATIONS</h1>
+        <h1> LOCATION</h1>
       </div>
       
       <div className='locations-container'>
       <div className='location'>
         <div className='map'>
-          <a href="https://maps.app.goo.gl/NCVk9dMgtBCdKxWF9" target="_blank" rel="noopener noreferrer">
+          <a href="https://maps.app.goo.gl/QxzFzuJNRBsPdAAj8" target="_blank" rel="noopener noreferrer">
             <img src={Maps} alt='Location 1' />
           </a>
         </div>
         <div className='address'>
-          <p>Deshi Pakwan, Joshipura, Junagadh-362001</p>
+          <p>Royal Powder Coat, Vadodara - 390010, Gujarat</p>
         </div>
       </div>
-      <div className='location'>
+      {/* <div className='location'>
         <div className='map'>
         <a href="https://maps.app.goo.gl/iS66FCdnQrvwupZN7" target="_blank" rel="noopener noreferrer">
             <img src={Maps} alt='Location 1' />
@@ -164,7 +164,7 @@ function Contact() {
         <div className='address'>
           <p>307-G.I.D.C. Makarpura,Vadodara - 390010, Gujarat - India</p>
         </div>
-      </div>
+      </div> */}
       {/* <div className='location'>
         <div className='map'>
           <img src={Maps} alt='Location 3' />

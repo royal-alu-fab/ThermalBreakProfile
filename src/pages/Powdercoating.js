@@ -7,8 +7,8 @@ function Powdercoating() {
   return (
     <ProductPage 
       mainImage={powderCoatingImage}
-      mainAltText="Powder Coating"
-      title="Powder Coating"
+      mainAltText="Aluminium Profile Powder Coating"
+      title="Aluminium Profile Powder Coating"
       description="Powder coating is a process where dry powder is applied electrostatically to a surface, then cured under heat, creating a durable, protective layer. It's commonly used on metals for enhanced resistance to corrosion, wear, and weathering."
       productList={Powdercoatinglist}
     /> 

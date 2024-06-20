@@ -1,7 +1,3 @@
-import image1 from '../assets/products1.png'
-import image2 from '../assets/product-2.png'
-import image3 from '../assets/product3.png'
-import image4 from '../assets/thermalbreakprofile.jpg'
 import img1 from '../assets/powder coating/aluminium powder coating.png';
 import img2 from '../assets/powder coating/powder coating plant.png';
 import img3 from '../assets/powder coating/powder coating process 2.png';

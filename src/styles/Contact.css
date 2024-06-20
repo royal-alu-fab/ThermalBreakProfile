@@ -114,8 +114,8 @@
     font-size: 14px;
     margin-top: 5px;
   }
-  .location-heading{
-    padding-left: 100px;    
+  .location-heading {
+    /* padding: 10px;     */
     margin-top: 30px;
   }
   .locations-container {
@@ -171,24 +171,34 @@
       display: grid;
       margin: 10px;
       height: 100%;
+      max-width: 100%;
       padding-bottom: 30px;
+      word-break: break-word;
   }
   .contact-detail{
       width: 100%;
+      max-width: 600px;
+      display: flex;
+      flex-direction: column;
       margin: 0px;
       padding: 0px;
       height: 100%;
   }
   .contact-item {
+      display: flex;
+      align-items: center;
       padding-left: 10px;
+      flex-wrap: wrap;
   }
   .contact-item span{
-      font-size: 30px;
+      /* font-size: 30px; */
+      height: 30px;
+      width: 26px;
+      margin-right: 10px;
   }
   .contact-item p{
-      margin-left: 30px;
+      margin-left: 5px;
       font-size: 18px;
-      text-align: justify;
   }
   .contact-form{
       width: 100%;
