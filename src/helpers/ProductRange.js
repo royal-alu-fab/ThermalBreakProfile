@@ -6,6 +6,9 @@ import ae from '../assets/aluminium extrusion/AE.jpg';
 // import hvac from '../assets/hvac solutions/hvac.jpg';
 import woodcoat from '../assets/wooden coating/wooden.jpg';
 import powdercoat from '../assets/powder coating/powdercoating.jpg';
+import thermalbreakprofile from '../assets/thermal break profile/thermalbreakprofilemain.jpg';
+import thermalBreakAluminiumProfileImage from '../assets/thermal break aluminium profile/thermal-break-aluminium-profile.jpg';
+import woodenCoatingImage from '../assets/woodencoating.png';
 import '../styles/ProductRange.css';
 
 function ProductRange() { 
@@ -16,14 +19,14 @@ function ProductRange() {
       <div className="products">
         <div className="product">
         <Link to ='/thermalbreakprofile'>
-          <h2>Thermal Break Profile</h2>
-          <img src={tbp} alt="Thermal Break Profile" />
+          <h2>Polyamide Thermal Break Profile PA66 GF 25</h2>
+          <img src={thermalbreakprofile} alt="Thermal Break Profile" />
           </ Link>
         </div>
         <div className="product">
           <Link to ='/thermalbreakaluminiumprofile'>
             <h2>Thermal Break Aluminium Profile</h2>
-            <img src={tbap} alt="Thermal Break Aluminium Profile" /> 
+            <img src={thermalBreakAluminiumProfileImage} alt="Thermal Break Aluminium Profile" />
           </ Link>
         </div>
         <div className="product">
@@ -47,7 +50,7 @@ function ProductRange() {
         <div className="product">
           <Link to ='/woodencoating'>
             <h2>Wooden Coating</h2>      
-            <img src={woodcoat} alt="Wooden Coating" /> 
+            <img src={woodenCoatingImage} alt="Wooden Coating" />
           </Link>
         </div>
       </div>
